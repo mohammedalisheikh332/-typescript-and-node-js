@@ -1,20 +1,8 @@
 "use strict";
-let age = 30;
-if (age < 2) {
-    console.log("You are a baby.");
+let magicians = ["Mohammed", "Asif", "Fromer Pakistani fast blower"];
+function show_magicians(magicians) {
+    magicians.forEach(magician => {
+        console.log(magician);
+    });
 }
-else if (age < 4) {
-    console.log("You are a toddler.");
-}
-else if (age < 13) {
-    console.log("You are a kid.");
-}
-else if (age < 20) {
-    console.log("You are a teenager.");
-}
-else if (age < 65) {
-    console.log("You are an adult. ");
-}
-else {
-    console.log("You are an elder ");
-}
+show_magicians(magicians);

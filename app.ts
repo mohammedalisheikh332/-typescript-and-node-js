@@ -1,14 +1,10 @@
-let age = 30
-if (age < 2) {
-    console.log("You are a baby.")
-} else if (age < 4) {
-    console.log("You are a toddler.")
-} else if (age < 13) {
-    console.log("You are a kid.");
-} else if (age < 20) {
-    console.log("You are a teenager.");
-} else if (age < 65) {
-    console.log("You are an adult. ");
-} else {
-    console.log("You are an elder ");
+let magicians: string[] = ["Mohammed", "Asif", "Fromer Pakistani fast blower"]
+
+function show_magicians(magicians:string[]) {
+    magicians.forEach(magician => 
+        {
+            console.log(magician);
+        })
 }
+
+show_magicians(magicians);
