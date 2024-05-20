@@ -1,15 +1,8 @@
-var guest_list = ['Babar', 'Saim', 'Rizwan', 'Shaheen Afridi',];
-for (var i = 0; i < guest_list.length; i++) {
-    console.log('Respected sir' + guest_list[i] + ' ,\n we invited you on dinner tomorrow.\n Thankyou\n');
-}
-var not_present = 'Riwzan';
-var new_guest = 'Hania Amir';
-guest_list[2] = new_guest;
-for (var i = 0; i < guest_list.length; i++) {
-    console.log('Respected sir/madam' + guest_list[i] + ',\n We invited you on dinner tomorrow.\n Thankyou\n');
-}
-console.log("Mr. ".concat(not_present, " will not coming to dinner tomorrow."));
-guest_list.unshift('Mahira khan', 'Kinza', 'maya');
-for (var i = 0; i < guest_list.length; i++) {
-    console.log('Respected sir/madam ' + guest_list[i] + ',\n We invited you on dinner tomorrow,Because we have a bigger table now.\n Thankyou\n');
-}
+var array = ['Raza', 'Ali', 'Babar', 2, 3, 7, "saba"];
+console.log(array[7]);
+console.log(array[0]);
+console.log(array[1]);
+console.log(array[2]);
+console.log(array[3]);
+console.log(array[4]);
+console.log(array[5]);
