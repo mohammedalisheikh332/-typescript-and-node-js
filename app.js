@@ -1,2 +1,4 @@
-var FavouriteNumber = 10;
-console.log(" My favourite Number is  ".concat(FavouriteNumber));
+var quote = "same as 4";
+var famous_person = "Albert Einstion";
+var message = "".concat(famous_person, " once said, $ {quote}");
+console.log(message);

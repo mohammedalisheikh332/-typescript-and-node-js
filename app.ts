@@ -1,2 +1,4 @@
-let FavouriteNumber: number = 10;
-console.log(` My favourite Number is  ${FavouriteNumber}`);
+let quote: string = "same as 4";
+let famous_person = "Albert Einstion";
+let message= `${famous_person} once said, $ {quote}`;
+console.log(message); 
