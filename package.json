@@ -2,7 +2,7 @@
   "devDependencies": {
     "@types/node": "^20.12.8"
   },
-  "name": "26.stages-of-life",
+  "name": "27.-favorite-fruit",
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
