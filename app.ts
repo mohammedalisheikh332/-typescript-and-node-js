@@ -1,4 +1,3 @@
-let quote: string = "same as 4";
-let famous_person = "Albert Einstion";
-let message= `${famous_person} once said, $ {quote}`;
-console.log(message); 
+let quote: string = "A person who never made a mistake  never tried anything new.";
+let author: string= "Albert Einstien";
+console.log(`${author} once said, "${quote}"`);

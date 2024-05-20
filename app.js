@@ -1,4 +1,3 @@
-var quote = "same as 4";
-var famous_person = "Albert Einstion";
-var message = "".concat(famous_person, " once said, $ {quote}");
-console.log(message);
+var quote = "A person who never made a mistake  never tried anything new.";
+var author = "Albert Einstien";
+console.log("".concat(author, " once said, \"").concat(quote, "\""));
