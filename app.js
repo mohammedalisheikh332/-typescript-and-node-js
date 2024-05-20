@@ -1,8 +1,7 @@
 "use strict";
-let magicians = ["Mohammed", "Asif", "Fromer Pakistani fast blower"];
-function show_magicians(magicians) {
-    magicians.forEach(magician => {
-        console.log(magician);
-    });
+function make_shirt(size = "large", message = "I love TypeScript") {
+    console.log(`Making a ${size} t-shirt with the message "${message}" printed on it,`);
 }
-show_magicians(magicians);
+make_shirt();
+make_shirt("medium");
+make_shirt("small", "Dive into coding");
