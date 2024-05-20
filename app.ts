@@ -1,16 +1,56 @@
-// create a variablecalled alien_color
-
-let alien_color: string = "Green";
-
-// : write an if statement to test weather the alien_color is green.If it a print a message that(the player just earened 5 point).
-
+let alien_color: string = "green";
 if(alien_color == "green"){
-    console.log("the player just earened 5 point")
+    console.log(" the player just eraned the 5 point ")
+} 
+// if the alien yellow,print a message that the player earned the 10 point
+
+else if (alien_color == "yellow"){
+    console.log("the player just earned 10 point.");
 }
 
-//write the one version of this program that pass the test weather that (the version that fail will have no output)
+// if the alien red,print a message that the player earned the 15 point
 
-alien_color ="red";
-if(alien_color == "green"){
-    console.log("the player just earened 5 point")
+else if(alien_color == "red"){
+    console.log("the player just earned 15 point.");
+}
+
+else{
+    console.log("please select the right color");
+}
+
+// write  three version of this program, making sure 
+// each message is printed apporpriate color alien
+
+// version 2.
+alien_color  = "red"
+if (alien_color =="green"){
+    console.log("the player earned just 5 point");  
+}
+alien_color = "Yellow"
+if (alien_color == "yellow"){
+    console.log("the player earned just 10 point")
+}
+
+if (alien_color =="red"){
+    console.log("the player earned just 15 point")
+}
+else{
+    console.log("please select the right color");
+}
+
+// version 3.
+alien_color  = "red"
+if (alien_color =="green"){
+    console.log("the player earned just 5 point");  
+}
+alien_color = "Yellow"
+if (alien_color == "yellow"){
+    console.log("the player earned just 10 point")
+}
+
+if (alien_color =="red"){
+    console.log("the player earned just 15 point")
+}
+else{
+    console.log("please select the right color");
 }
