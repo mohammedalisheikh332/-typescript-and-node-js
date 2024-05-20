@@ -1,3 +1,5 @@
-var quote = "A person who never made a mistake  never tried anything new.";
-var author = "Albert Einstien";
-console.log("".concat(author, " once said, \"").concat(quote, "\""));
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var app_1 = require("../GuestList/app");
+console.log("n/printer number of guest invited");
+console.log("we had finally invited ".concat(app_1.guest_list.length, " from exercises 14"));

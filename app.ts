@@ -1,3 +1,3 @@
-let quote: string = "A person who never made a mistake  never tried anything new.";
-let author: string= "Albert Einstien";
-console.log(`${author} once said, "${quote}"`);
+import {guest_list} from '../GuestList/app'
+console.log(`n/printer number of guest invited`)
+console.log(`we had finally invited ${guest_list.length} from exercises 14`);
