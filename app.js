@@ -1,7 +1,11 @@
 "use strict";
-function make_shirt(size = "large", message = "I love TypeScript") {
-    console.log(`Making a ${size} t-shirt with the message "${message}" printed on it,`);
-}
-make_shirt();
-make_shirt("medium");
-make_shirt("small", "Dive into coding");
+Object.defineProperty(exports, "__esModule", { value: true });
+let laptop = {
+    make: "dell",
+    model: "XPS 15",
+    year: 2021,
+    describe: function () {
+        console.log(`This laptop is a ${this.year} ${this.make} ${this.year}`);
+    }
+};
+laptop.describe();
