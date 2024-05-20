@@ -1,5 +1,5 @@
-let guest_list: string[] = ['Babar','Saim' ,'Rizwan', 'Shaheen Afridi',];
-for(let i=0; i<guest_list.length;i++){
-    console.log('Respected sir'+ guest_list[i] +' ,\n we invited you on dinner tomorrow.\n Thankyou\n')
-}
-export{guest_list}
+let greeting: string[] =['Ali','Raza','Umer','Saba','Hina',];
+let message: string ='whos birthday tomorrow?:';
+for(let i=0; i<message.length; i++){
+    console.log(message+greeting[i]);
+} 
