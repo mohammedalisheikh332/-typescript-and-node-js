@@ -1,18 +1,15 @@
 {
-  "devDependencies": {
-    "@types/node": "^20.12.8"
-  },
-  "name": "27.-favorite-fruit",
+  "name": "28.animal",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "dependencies": {
-    "undici-types": "^5.26.5"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "devDependencies": {
+    "@types/node": "^20.12.10"
+  }
 }
