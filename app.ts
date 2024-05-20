@@ -1,4 +1,6 @@
-let transportation: string[] =['Civic','Bike','Bus','Train',];
-for(let i=0;i<transportation.length; i++){
-    console.log('I would like to own a' + transportation [i]);
+let languages: string  [] = ['Urdu', 'Hindi', 'English', 'French', 'arabic']
+console.log("list of languages:")
+for(let top of languages){
+    console.log(top)
+    
 }

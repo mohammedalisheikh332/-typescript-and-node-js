@@ -1,5 +1,6 @@
-"use strict";
-let transportation = ['Civic', 'Bike', 'Bus', 'Train',];
-for (let i = 0; i < transportation.length; i++) {
-    console.log('I would like to own a' + transportation[i]);
+var languages = ['Urdu', 'Hindi', 'English', 'French', 'arabic'];
+console.log("list of languages:");
+for (var _i = 0, languages_1 = languages; _i < languages_1.length; _i++) {
+    var top_1 = languages_1[_i];
+    console.log(top_1);
 }
