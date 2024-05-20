@@ -1,20 +1,16 @@
-// choose a color for a alien as you did in exercises 25,and write an if-else chains.
-
+// create a variablecalled alien_color
 
 let alien_color: string = "Green";
+
+// : write an if statement to test weather the alien_color is green.If it a print a message that(the player just earened 5 point).
+
 if(alien_color == "green"){
-    console.log("the player just earened 5 point for shooting the alien")
+    console.log("the player just earened 5 point")
 }
 
-// if the alien_coloris green printa statement that player just eraned 5 point for shooting the alien
-if(alien_color == "green"){
-    console.log("the player just earened 5 point for shooting the alien")
-}
+//write the one version of this program that pass the test weather that (the version that fail will have no output)
 
-else{
-    console.log("the player earened 10 point")
-}
- alien_color = "red";
- if(alien_color == "green"){
-    console.log("the player just earened 5 point for shooting the alien")
+alien_color ="red";
+if(alien_color == "green"){
+    console.log("the player just earened 5 point")
 }
