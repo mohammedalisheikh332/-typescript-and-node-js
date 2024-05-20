@@ -1,6 +1,4 @@
-let languages: string  [] = ['Urdu', 'Hindi', 'English', 'French', 'arabic']
-console.log("list of languages:")
-for(let top of languages){
-    console.log(top)
-    
-}
+let personName: string = `/n/t BABER AZAM/t/n`;
+console.log(personName);
+let stripped: string = personName. trim();
+console.log(stripped);
