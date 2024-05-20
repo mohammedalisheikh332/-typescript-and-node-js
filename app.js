@@ -1,11 +1,16 @@
-var guest_list = ['Babar', 'Saim', 'Rizwan', 'Shaheen Afridi',];
-for (var i = 0; i < guest_list.length; i++) {
-    console.log('Respected sir' + guest_list[i] + ' ,\n we invited you on dinner tomorrow.\n Thankyou\n');
+// choose a color for a alien as you did in exercises 25,and write an if-else chains.
+var alien_color = "Green";
+if (alien_color == "green") {
+    console.log("the player just earened 5 point for shooting the alien");
 }
-var not_present = 'Riwzan';
-var new_guest = 'Hania Amir';
-guest_list[2] = new_guest;
-for (var i = 0; i < guest_list.length; i++) {
-    console.log('Respected sir/madam' + guest_list[i] + ',\n We invited you on dinner tomorrow.\n Thankyou\n');
+// if the alien_coloris green printa statement that player just eraned 5 point for shooting the alien
+if (alien_color == "green") {
+    console.log("the player just earened 5 point for shooting the alien");
 }
-console.log("Mr. ".concat(not_present, " will not coming to dinner tomorrow."));
+else {
+    console.log("the player earened 10 point");
+}
+alien_color = "red";
+if (alien_color == "green") {
+    console.log("the player just earened 5 point for shooting the alien");
+}
