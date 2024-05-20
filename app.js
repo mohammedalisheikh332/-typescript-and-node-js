@@ -1,4 +1,7 @@
-console.log(5 + 3);
-console.log(11 - 3);
-console.log(4 - 2);
-console.log(16 / 2);
+// lowercase
+var personName = "Ali";
+console.log("lowercase:", personName.toLowerCase());
+// uppercase
+console.log("uppercase:", personName.toLocaleUpperCase());
+//title case
+console.log("title:", personName.replace(/\bw/g, function (c) { return c.toUpperCase(); }));
