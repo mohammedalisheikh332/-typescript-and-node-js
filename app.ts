@@ -1,2 +1,6 @@
-var myIdealDay = "My ideal day would involve:\n1. Waking up early and going for ajog.\n2. Spend a few hours coding on a personal project.\n3. Ending the day by reading a good book.";
-console.log(myIdealDay);
+function calculateArea(width ,height) {
+    
+    return width * height;
+}
+var calculateAreaArrow = function (width ,height) { return width * height; };
+console.log(calculateAreaArrow(5, 7));
