@@ -1,12 +1,2 @@
-function hobbies() {
-    
-    var hobbies = [];
-    for (var _i = 0; _i < arguments.length; _i++) {
-        hobbies[_i] = arguments[_i];
-    }
-    hobbies.forEach(function (hobby) {
-        console.log("I enjoy ".concat(hobby, "."));
-    });
-}
-hobbies("coding, reading,cricket");
-
+var myIdealDay = "My ideal day would involve:\n1. Waking up early and going for ajog.\n2. Spend a few hours coding on a personal project.\n3. Ending the day by reading a good book.";
+console.log(myIdealDay);
