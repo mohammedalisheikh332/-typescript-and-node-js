@@ -1,6 +1,10 @@
-function calculateArea(width ,height) {
-    
-    return width * height;
-}
-var calculateAreaArrow = function (width ,height) { return width * height; };
-console.log(calculateAreaArrow(5, 7));
+var smartphone = {
+    make: "Samsung",
+    model: "Galaxy S21",
+    specs: {
+        storage: "128GB",
+        screen_size: "6.2 inches",
+        battery_life: "18 hours"
+    }
+};
+console.log(smartphone);

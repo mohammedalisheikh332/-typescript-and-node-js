@@ -1,3 +1,11 @@
 "use strict";
-var myIdealDay = "My ideal day would involve:\n1. Waking up early and going for ajog.\n2. Spend a few hours coding on a personal project.\n3. Ending the day by reading a good book.";
-console.log(myIdealDay);
+var smartphone = {
+    make: "Samsung",
+    model: "Galaxy S21",
+    specs: {
+        storage: "128GB",
+        screen_size: "6.2 inches",
+        battery_life: "18 hours"
+    }
+};
+console.log(smartphone);
