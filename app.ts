@@ -1,11 +1,12 @@
-import { toASCII } from "punycode";
-
-let laptop = {
-    make: "dell",
-    model: "XPS 15",
-    year: 2021,
-    describe: function() {
-        console.log(`This laptop is a ${this.year} ${this.make} ${this.year}`);
+function hobbies() {
+    
+    var hobbies = [];
+    for (var _i = 0; _i < arguments.length; _i++) {
+        hobbies[_i] = arguments[_i];
     }
+    hobbies.forEach(function (hobby) {
+        console.log("I enjoy ".concat(hobby, "."));
+    });
 }
-laptop.describe()
+hobbies("coding, reading,cricket");
+
